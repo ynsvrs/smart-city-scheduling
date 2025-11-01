@@ -1,0 +1,10 @@
+Dataset,Vertices,Edges,SCCs,DAG_Vertices,DAG_Edges,SCC_DFS_Visits,SCC_DFS_Edges,SCC_Time_ms,Topo_Pushes,Topo_Pops,Topo_Time_ms,SP_Relaxations,SP_Time_ms,SP_Distance,LP_Relaxations,LP_Time_ms,Critical_Path_Length
+small1.json,6,5,6,6,5,12,10,0,083,6,6,0,051,5,0,022,15,5,0,009,15
+small2.json,7,6,5,5,3,14,12,0,057,5,5,0,048,3,0,021,INF,3,0,010,8
+small3.json,8,7,6,6,4,16,14,0,093,6,6,0,055,3,0,020,INF,4,0,008,8
+medium1.json,10,10,10,10,10,20,20,0,138,10,10,0,060,10,0,042,27,10,0,012,29
+medium2.json,15,15,11,11,9,30,30,0,104,11,11,0,095,6,0,023,22,9,0,027,22
+medium3.json,12,14,4,4,2,24,28,0,071,4,4,0,046,2,0,016,5,2,0,007,5
+large1.json,20,19,20,20,19,40,38,0,092,20,20,0,079,19,0,033,19,19,0,020,19
+large2.json,30,30,22,22,18,60,60,0,149,22,22,0,097,18,0,026,22,18,0,013,22
+large3.json,50,66,17,17,16,100,132,0,147,17,17,0,102,16,0,026,160,16,0,014,160
