@@ -13,12 +13,12 @@
 - Purpose: Compute valid execution order
 - Output: Topological order of components, derived task order
 #### Shortest/Longest Paths in DAG
-- Algorithm I chose: **Dynamic programming over topological order**
+- Algorithm: **Dynamic programming over topological order**
 - Time Complexity: O(V + E)
 - Purpose: Find optimal paths and critical bottlenecks
 - Output: Shortest distances with path reconstruction, longest (critical) path
 
-## Weight Model
+### Weight Model
 ### Edge Weights: 
 **Each edge has a weight representing task duration or cost. Used for computing both shortest paths (minimum cost) and longest paths (critical path).**
 
