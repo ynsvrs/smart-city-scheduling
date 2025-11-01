@@ -304,6 +304,18 @@ SCC compression pays off — downstream algorithms run on much smaller graphs.
 - Performing **Critical Path Method (CPM)** analysis
 ---
 
+### Practical Recommendations
+1. **For Smart City Scheduling**:
+- Always run SCC detection first to handle circular dependencies
+  STEP 15: CREATE HELPER SCRIPTS
+- Use topological sort for valid execution order
+- Apply critical path analysis to identify high-priority tasks
+- Monitor bottleneck tasks identified by longest path
+2. **Performance Optimization**:
+- SCC compression is essential for cyclic graphs (can reduce size by 60%+)
+- Pre-compute topological order once, reuse for multiple path queries
+- For very large graphs (1000+ nodes), consider parallel DFS
+
 
 ## Command Summary
 ```bash
